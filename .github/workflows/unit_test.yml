@@ -3,7 +3,11 @@
 
 name: Easy string
 
-on: [push]
+on:
+  push:
+    branches:
+      - dev
+      - main
 
 permissions:
   contents: read
