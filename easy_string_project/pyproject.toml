@@ -1,0 +1,24 @@
+[build-system]
+
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "easy_string"
+version = "0.0.2"
+authors = [
+  { name="Carlos Eduardo Tussi", email="carlos.leite@edu.dsti.institute" },
+]
+description = "A string functions tool package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/CarlosTussi"
+Issues = "https://github.com/CarlosTussi"
