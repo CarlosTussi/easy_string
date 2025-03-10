@@ -29,4 +29,4 @@ jobs:
         pip install pytest
     - name: Test with pytest
       run: |
-        PYTHONPATH=$PYTHONPATH:$(pwd)/src pytest
+        PYTHONPATH=$PYTHONPATH:$(pwd)/easy_string_project/src/easy_string pytest
